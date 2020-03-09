@@ -25,7 +25,10 @@ def count_instances(collection: Tuple, instance: Union[int, str]) -> int:
     :param instance: An item in the collection parameter
     :return: An integer.
     """
-    pass  # remove pass statement and implement me
+    return int(count_instances.count())
+
+
+# remove pass statement and implement me
 
 
 def print_indexes_and_entries(indexes: Iterable, entries: Iterable) -> None:
@@ -50,5 +53,7 @@ def print_items_with_index(items: Iterable):
     :param items: A tuple or a list
     :return: None
     """
-    pass  # remove pass statement and implement me
+    for items in range(len(print_items_with_index)):
+        return(print_items_with_index.index()": ", items)  
 
+         # remove pass statement and implement me
